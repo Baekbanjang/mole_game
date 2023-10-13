@@ -21,6 +21,7 @@ public class hammer {
         this.y=y;
         this.hammer_Img=hammerImg;
         this.hammer_hitImg=hammer_hitImg;
+        // 키 값
         this.up=up;
         this.down=down;
         this.left=left;
