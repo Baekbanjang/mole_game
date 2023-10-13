@@ -1,7 +1,12 @@
 package org.example;
 
+import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
-        mole_game b=new mole_game();
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                new mole_game();
+            }
+        });
     }
 }
